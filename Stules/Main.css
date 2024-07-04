@@ -1,0 +1,53 @@
+.header{
+    
+    left: 50%;
+    padding: 40px 50px 40px 0px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
+    display: flex;
+}
+
+.body{
+    background-image: url(../Images/bacground_1.jfif);
+    background-repeat:no-repeat;
+    background-position: center center;
+    height: 750px;
+    width: 100%;
+    display: flex;
+}
+
+.Name{
+    font-size: 50px;
+    color: #ffffff;
+    left: 30%;
+    top: 200px;
+}
+
+.Main_Body_Text{
+    margin-left: 10%;
+    padding-top: 190px;
+}
+
+.Con_Text_Name{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 60px;
+}
+
+.Info_Company_Button{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 60px;
+}
+
+.Serv1, .Serv2, .Serv3, .Serv4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #5DB7DE;
+    margin-top: 100px;
+    margin-left: 30%;
+}
